@@ -10,9 +10,9 @@
 #include <ESPmDNS.h>
 #include <Update.h>
 
-const char* host = "esp32";
-const char* ssid = "R03";
-const char* password = "dumdum";
+const char* host = "esp32dumdum";
+const char* ssid = "SOURCE";
+const char* password = "Pelle!23";
 
 WebServer server(80);
 

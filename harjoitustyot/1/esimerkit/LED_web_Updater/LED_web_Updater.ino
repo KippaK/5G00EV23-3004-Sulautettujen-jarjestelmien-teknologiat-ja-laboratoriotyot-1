@@ -9,12 +9,12 @@
 #include <ESPmDNS.h>
 #include <Update.h>
 
-const char* host = "esp32";
-const char* ssid = "REPLACE_WITH_YOUR_SSID";
-const char* password = "REPLACE_WITH_YOUR_PASSWORD";
+const char* host = "esp32dumdum";
+const char* ssid = "SOURCE";
+const char* password = "Pelle!23";
 
 //variabls to blink without delay:
-const int led = 2;
+const int led = 5;
 unsigned long previousMillis = 0;        // will store last time LED was updated
 const long interval = 1000;           // interval at which to blink (milliseconds)
 int ledState = LOW;             // ledState used to set the LED
